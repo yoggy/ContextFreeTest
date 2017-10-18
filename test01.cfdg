@@ -1,0 +1,16 @@
+startshape A
+
+rule A {
+  C [ r 0 x 1 s 1 sat 1 hue 0 b 1 ]
+  C [ r 72 x 1 s 1 sat 1 hue 72 b 1 ]
+  C [ r 144 x 1 s 1 sat 1 hue 144 b 1]
+  C [ r 216 x 1 s 1 sat 1 hue 216 b 1]
+  C [ r 288 x 1 s 1 sat 1 hue 288 b 1]
+}
+
+rule C
+{
+	CIRCLE {}
+	C {r 12  x 1  s 0.95  sat -0.05 hue 8}
+	C {r 24  x 1  s 0.3  sat -0.05 }
+}
